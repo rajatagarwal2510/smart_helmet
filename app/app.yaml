@@ -1,0 +1,11 @@
+name: helmet detector 2
+description: This example showcases object detection within a live feed from a USB camera.
+ports: []
+bricks:
+  - arduino:video_object_detection:
+      variables:
+        # NAME MUST BE 'EI_OBJ_DETECTION_MODEL' for the standard main.py to find it automatically
+        EI_OBJ_DETECTION_MODEL: /home/arduino/.arduino-bricks/ei-models/qualcommai-linux-aarch64-v1.eim
+  - arduino:web_ui: {}
+  
+icon: 📽️
