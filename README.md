@@ -70,14 +70,19 @@ Mount webcam forward (road + streetlights view), gyroscope firmly on frame.
 ## Repository Structure (Assumed)
 
 ```
-road-safety-system/
+smart_helmet/
+├─ requirements.txt
 ├── README.md
-├── arduino/
-│   └── crash_detection.ino          # Crash + SOS logic
+├── license.txt
+├── model/
+│   └── helmet.eim
+│   └── model_pothole.eim
+│   └── streetlight.eim
 ├── app/
-│   ├── edge_detection.py            # YOLO: potholes + helmets + streetlights
-│   ├── requirements.txt
-│   └── config.py                    # Firebase, email, etc.
+│   ├── main.py           
+│   ├── sketch.ino
+│   └── app.yaml
+│   └──sketch.yaml                   
 ```
 
 ## Implementation Steps
