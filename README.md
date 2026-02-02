@@ -71,7 +71,6 @@ Mount webcam forward (road + streetlights view), gyroscope firmly on frame.
 
 ```
 smart_helmet/
-├─ requirements.txt
 ├── README.md
 ├── license.txt
 ├── model/
